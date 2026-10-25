@@ -1,0 +1,70 @@
+body{
+    background-color: silver;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    height: 130px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#topic li{
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+#topic li:hover{
+    color: rgb(102, 217, 249);
+}
+
+#header #topic{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#search{
+    height: 1.5rem;
+    width: 12rem;
+}
+
+#search-button{
+    height: 1.8rem;
+}
+
+#heading{
+    padding-left: 10%;
+    font-size: 2rem;
+}
+
+#maindata{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Creates three equal columns */
+    grid-template-rows: auto 1fr; /* Creates a top row with auto height and a second row filling remaining space */
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+    margin-left:10%;
+    margin-top:1%;
+}
+
+.card img{
+    height: 200px;
+    width: 100%;
+}
+
+.card{
+    border: solid black 1px;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    margin-top: 5px;
+}
